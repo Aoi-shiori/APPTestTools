@@ -94,30 +94,37 @@ class TestLogin:
         """输入已注册的Tenant，正常登录"""
 
         # 1. 启动应用
-        self.login_page.launch_app("Multi Vital Monitor")
+        with allure.step("启动应用"):
+            self.login_page.launch_app("Multi Vital Monitor")
 
         # 2. 同意隐私政策与条款
-        self.login_page.agree_privacy_and_terms()
+        with allure.step("同意隐私政策与条款"):
+            self.login_page.agree_privacy_and_terms()
 
         # 3. 输入账号信息
-        self.login_page.input_credentials(
-            tenant="first",
-            email="jun@vivalink.com.cn",
-            password="Jun@1234"
-        )
+        with allure.step("输入账号信息"):
+            self.login_page.input_credentials(
+                tenant="first",
+                email="jun@vivalink.com.cn",
+                password="Jun@1234"
+            )
 
         # 4. 返回并登录
-        self.login_page.press_back()
-        self.login_page.click_login()
+        with allure.step("返回并登录"):
+            self.login_page.press_back()
+            self.login_page.click_login()
 
         # 5. 处理条款弹窗（如果有）
-        self.login_page.handle_terms_popup()
+        with allure.step("处理条款弹窗"):
+            self.login_page.handle_terms_popup()
 
         # 6. 选择站点（注意按钮包含换行符）
-        self.login_page.select_site("first\nRegistered")
+        with allure.step("选择站点"):
+            self.login_page.select_site("first\nRegistered")
 
         # 7. 退出登录
-        self.login_page.logout("VI")
+        with allure.step("退出登录"):
+            self.login_page.logout("VI")
 
     @allure.feature("登录模块")          # 功能模块
     @allure.story("REQ 1.14")     # 用户故事
@@ -125,33 +132,38 @@ class TestLogin:
     @allure.severity(allure.severity_level.CRITICAL)  # 标记严重程度
     def test_login_Case12(self):
         """Email已注册且属于当前Tenant ，检查是否成功登录"""
-
-
         # 1. 启动应用
-        self.login_page.launch_app("Multi Vital Monitor")
+        with allure.step("启动应用"):
+            self.login_page.launch_app("Multi Vital Monitor")
 
         # 2. 同意隐私政策与条款
-        self.login_page.agree_privacy_and_terms()
+        with allure.step("同意隐私政策与条款"):
+            self.login_page.agree_privacy_and_terms()
 
         # 3. 输入账号信息
-        self.login_page.input_credentials(
-            tenant="first",
-            email="jun@vivalink.com.cn",
-            password="Jun@1234"
-        )
+        with allure.step("输入账号信息"):
+            self.login_page.input_credentials(
+                tenant="first",
+                email="jun@vivalink.com.cn",
+                password="Jun@1234"
+            )
 
         # 4. 返回并登录
-        self.login_page.press_back()
-        self.login_page.click_login()
+        with allure.step("返回并登录"):
+            self.login_page.press_back()
+            self.login_page.click_login()
 
         # 5. 处理条款弹窗（如果有）
-        self.login_page.handle_terms_popup()
+        with allure.step("处理条款弹窗"):
+            self.login_page.handle_terms_popup()
 
         # 6. 选择站点（注意按钮包含换行符）
-        self.login_page.select_site("first\nRegistered")
+        with allure.step("选择站点"):
+            self.login_page.select_site("first\nRegistered")
 
         # 7. 退出登录
-        self.login_page.logout("VI")
+        with allure.step("退出登录"):
+            self.login_page.logout("VI")
 
     @allure.feature("登录模块")          # 功能模块
     @allure.story("REQ 1.14")     # 用户故事
@@ -160,32 +172,38 @@ class TestLogin:
     def test_login_Case15(self):
         """密码正确，成功登录"""
 
-
         # 1. 启动应用
-        self.login_page.launch_app("Multi Vital Monitor")
+        with allure.step("启动应用"):
+            self.login_page.launch_app("Multi Vital Monitor")
 
         # 2. 同意隐私政策与条款
-        self.login_page.agree_privacy_and_terms()
+        with allure.step("同意隐私政策与条款"):
+            self.login_page.agree_privacy_and_terms()
 
         # 3. 输入账号信息
-        self.login_page.input_credentials(
-            tenant="first",
-            email="jun@vivalink.com.cn",
-            password="Jun@1234"
-        )
+        with allure.step("输入账号信息"):
+            self.login_page.input_credentials(
+                tenant="first",
+                email="jun@vivalink.com.cn",
+                password="Jun@1234"
+            )
 
         # 4. 返回并登录
-        self.login_page.press_back()
-        self.login_page.click_login()
+        with allure.step("返回并登录"):
+            self.login_page.press_back()
+            self.login_page.click_login()
 
         # 5. 处理条款弹窗（如果有）
-        self.login_page.handle_terms_popup()
+        with allure.step("处理条款弹窗"):
+            self.login_page.handle_terms_popup()
 
         # 6. 选择站点（注意按钮包含换行符）
-        self.login_page.select_site("first\nRegistered")
+        with allure.step("选择站点"):
+            self.login_page.select_site("first\nRegistered")
 
         # 7. 退出登录
-        self.login_page.logout("VI")
+        with allure.step("退出登录"):
+            self.login_page.logout("VI")
 
     @allure.feature("登录模块")          # 功能模块
     @allure.story("REQ 1.14")     # 用户故事
@@ -194,65 +212,39 @@ class TestLogin:
     def test_login_Case21(self):
         """检查勾选Privacy Policy/Terms &Conditions后，是否登录成功"""
 
-
         # 1. 启动应用
-        self.login_page.launch_app("Multi Vital Monitor")
+        with allure.step("启动应用"):
+            self.login_page.launch_app("Multi Vital Monitor")
 
         # 2. 同意隐私政策与条款
-        self.login_page.agree_privacy_and_terms()
+        with allure.step("同意隐私政策与条款"):
+            self.login_page.agree_privacy_and_terms()
 
         # 3. 输入账号信息
-        self.login_page.input_credentials(
-            tenant="first",
-            email="jun@vivalink.com.cn",
-            password="Jun@1234"
-        )
+        with allure.step("输入账号信息"):
+            self.login_page.input_credentials(
+                tenant="first",
+                email="jun@vivalink.com.cn",
+                password="Jun@1234"
+            )
 
         # 4. 返回并登录
-        self.login_page.press_back()
-        self.login_page.click_login()
+        with allure.step("返回并登录"):
+            self.login_page.press_back()
+            self.login_page.click_login()
 
         # 5. 处理条款弹窗（如果有）
-        self.login_page.handle_terms_popup()
+        with allure.step("处理条款弹窗"):
+            self.login_page.handle_terms_popup()
 
         # 6. 选择站点（注意按钮包含换行符）
-        self.login_page.select_site("first\nRegistered")
+        with allure.step("选择站点"):
+            self.login_page.select_site("first\nRegistered")
 
         # 7. 退出登录
-        self.login_page.logout("VI")
+        with allure.step("退出登录"):
+            self.login_page.logout("VI")
 
-    # @allure.feature("登录模块")          # 功能模块
-    # @allure.story("REQ 1.14")     # 用户故事
-    # @allure.title("Case22:检查Privacy Policy/Terms &Conditions链接跳转的页面")  # 用例标题
-    # @allure.severity(allure.severity_level.CRITICAL)  # 标记严重程度
-    # def test_login_Case22(self):
-    #     """检查Privacy Policy/Terms &Conditions链接跳转的页面"""
-    #     # 1. 启动应用
-    #     self.login_page.launch_app("Multi Vital Monitor")
-    #
-    #     # 2. 再次启动应用验证隐私政策内容（断言）
-    #     self.login_page.check_privacy()
-    #
-    #     assert_exists(get_template(r"tpl1776239168968.png", record_pos=(0.008, -0.024), resolution=(1080, 2400)),
-    #                   "隐私政策内容存在")
-    #     logger.info("隐私政策内容验证成功.")
-    #
-    #     self.login_page.take_screenshot("隐私政策页面")
-    #     self.login_page.poco("返回").click()
-    #
-    #     # 3. 验证条款与条件页面内容
-    #     self.login_page.check_terms()
-    #     # self.login_page.poco("条款与条件").click()
-    #     assert_exists(get_template(r"tpl1776232511072.png", record_pos=(0.017, -0.36), resolution=(1080, 2400)),
-    #                   "条款与条件页存在")
-    #     snapshot(msg="条款验证结果截图.")
-    #     self.login_page.poco("返回").click()
-    #
-    #     # 4. 退出登录
-    #     self.login_page.logout("VI")
-    #
-    #     # 5. 回到主页
-    #     keyevent("HOME")
 
     @allure.feature("登录模块")
     @allure.story("REQ 1.14")
@@ -300,30 +292,37 @@ class TestLogin:
         """Tenant 下已添加多个 Site，登录时检查 Site 筛选窗"""
 
         # 1. 启动应用
-        self.login_page.launch_app("Multi Vital Monitor")
+        with allure.step("启动应用"):
+            self.login_page.launch_app("Multi Vital Monitor")
 
         # 2. 同意隐私政策与条款
-        self.login_page.agree_privacy_and_terms()
+        with allure.step("同意隐私政策与条款"):
+            self.login_page.agree_privacy_and_terms()
 
         # 3. 输入账号信息
-        self.login_page.input_credentials(
-            tenant="first",
-            email="jun@vivalink.com.cn",
-            password="Jun@1234"
-        )
+        with allure.step("输入账号信息"):
+            self.login_page.input_credentials(
+                tenant="first",
+                email="jun@vivalink.com.cn",
+                password="Jun@1234"
+            )
 
         # 4. 返回并登录
-        self.login_page.press_back()
-        self.login_page.click_login()
+        with allure.step("返回并登录"):
+            self.login_page.press_back()
+            self.login_page.click_login()
 
         # 5. 处理条款弹窗（如果有）
-        self.login_page.handle_terms_popup()
+        with allure.step("处理条款弹窗"):
+            self.login_page.handle_terms_popup()
 
         # 6. 选择站点（注意按钮包含换行符）
-        self.login_page.select_site("first\nRegistered")
+        with allure.step("选择站点"):
+            self.login_page.select_site("first\nRegistered")
 
         # 7. 退出登录
-        self.login_page.logout("VI")
+        with allure.step("退出登录"):
+            self.login_page.logout("VI")
 
 
     # TODO: 待完善
@@ -336,27 +335,34 @@ class TestLogin:
         """Tenant admin登录Standard user 账号是否弹出site筛选窗"""
 
         # 1. 启动应用
-        self.login_page.launch_app("Multi Vital Monitor")
+        with allure.step("启动应用"):
+            self.login_page.launch_app("Multi Vital Monitor")
 
         # 2. 同意隐私政策与条款
-        self.login_page.agree_privacy_and_terms()
+        with allure.step("同意隐私政策与条款"):
+            self.login_page.agree_privacy_and_terms()
 
         # 3. 输入账号信息
-        self.login_page.input_credentials(
-            tenant="first",
-            email="jun@vivalink.com.cn",
-            password="Jun@1234"
-        )
+        with allure.step("输入账号信息"):
+            self.login_page.input_credentials(
+                tenant="first",
+                email="jun@vivalink.com.cn",
+                password="Jun@1234"
+            )
 
         # 4. 返回并登录
-        self.login_page.press_back()
-        self.login_page.click_login()
+        with allure.step("返回并登录"):
+            self.login_page.press_back()
+            self.login_page.click_login()
 
         # 5. 处理条款弹窗（如果有）
-        self.login_page.handle_terms_popup()
+        with allure.step("处理条款弹窗"):
+            self.login_page.handle_terms_popup()
 
         # 6. 选择站点（注意按钮包含换行符）
-        self.login_page.select_site("first2")
+        with allure.step("选择站点"):
+            self.login_page.select_site("first2")
 
         # 7. 退出登录
-        self.login_page.logout("VI")
+        with allure.step("退出登录"):
+            self.login_page.logout("VI")
