@@ -1,0 +1,122 @@
+2025/07/23 22:11:25 [emerg] 2230#0: unknown log format "main" in /Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/conf/nginx.conf:25
+2025/07/24 15:08:32 [emerg] 34248#0: unknown log format "main" in /Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/conf/nginx.conf:25
+2025/07/24 15:09:37 [notice] 34288#0: signal process started
+2025/07/24 15:09:40 [emerg] 34291#0: bind() to 0.0.0.0:8113 failed (48: Address already in use)
+2025/07/24 15:09:40 [emerg] 34291#0: bind() to 0.0.0.0:8112 failed (48: Address already in use)
+2025/07/24 15:09:40 [emerg] 34291#0: bind() to 0.0.0.0:8113 failed (48: Address already in use)
+2025/07/24 15:09:40 [emerg] 34291#0: bind() to 0.0.0.0:8112 failed (48: Address already in use)
+2025/07/24 15:09:40 [emerg] 34291#0: bind() to 0.0.0.0:8113 failed (48: Address already in use)
+2025/07/24 15:09:40 [emerg] 34291#0: bind() to 0.0.0.0:8112 failed (48: Address already in use)
+2025/07/24 15:09:40 [emerg] 34291#0: bind() to 0.0.0.0:8113 failed (48: Address already in use)
+2025/07/24 15:09:40 [emerg] 34291#0: bind() to 0.0.0.0:8112 failed (48: Address already in use)
+2025/07/24 15:09:40 [emerg] 34291#0: bind() to 0.0.0.0:8113 failed (48: Address already in use)
+2025/07/24 15:09:40 [emerg] 34291#0: bind() to 0.0.0.0:8112 failed (48: Address already in use)
+2025/07/24 15:09:40 [emerg] 34291#0: still could not bind()
+2025/07/24 15:10:22 [error] 34289#0: *1 open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8113", referrer: "http://localhost:8113/"
+2025/07/24 15:35:45 [emerg] 35006#0: bind() to 0.0.0.0:8113 failed (48: Address already in use)
+2025/07/24 15:35:45 [emerg] 35006#0: bind() to 0.0.0.0:8112 failed (48: Address already in use)
+2025/07/24 15:35:45 [emerg] 35006#0: bind() to 0.0.0.0:8113 failed (48: Address already in use)
+2025/07/24 15:35:45 [emerg] 35006#0: bind() to 0.0.0.0:8112 failed (48: Address already in use)
+2025/07/24 15:35:45 [emerg] 35006#0: bind() to 0.0.0.0:8113 failed (48: Address already in use)
+2025/07/24 15:35:45 [emerg] 35006#0: bind() to 0.0.0.0:8112 failed (48: Address already in use)
+2025/07/24 15:35:45 [emerg] 35006#0: bind() to 0.0.0.0:8113 failed (48: Address already in use)
+2025/07/24 15:35:45 [emerg] 35006#0: bind() to 0.0.0.0:8112 failed (48: Address already in use)
+2025/07/24 15:35:45 [emerg] 35006#0: bind() to 0.0.0.0:8113 failed (48: Address already in use)
+2025/07/24 15:35:45 [emerg] 35006#0: bind() to 0.0.0.0:8112 failed (48: Address already in use)
+2025/07/24 15:35:45 [emerg] 35006#0: still could not bind()
+2025/07/24 15:36:17 [notice] 35033#0: signal process started
+2025/07/24 15:36:17 [notice] 35034#0: signal process started
+2025/07/24 15:36:17 [error] 35034#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2025/07/24 15:36:33 [notice] 35051#0: signal process started
+2025/07/24 15:36:33 [error] 35051#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2025/07/24 15:36:33 [notice] 35054#0: signal process started
+2025/07/24 15:37:33 [notice] 35126#0: signal process started
+2025/07/24 15:37:36 [notice] 35131#0: signal process started
+2025/07/24 15:39:27 [notice] 35224#0: signal process started
+2025/07/24 15:39:30 [notice] 35229#0: signal process started
+2025/07/24 15:54:30 [notice] 35732#0: signal process started
+2025/07/24 15:54:33 [notice] 35749#0: signal process started
+2025/07/24 15:56:52 [notice] 35875#0: signal process started
+2025/07/24 15:56:55 [notice] 35885#0: signal process started
+2025/07/25 16:17:11 [notice] 62768#0: signal process started
+2025/07/25 16:17:14 [notice] 62772#0: signal process started
+2025/07/25 16:18:13 [error] 62774#0: *3 "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/.../reports/allure_reports_html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8112"
+2025/07/25 16:18:16 [error] 62774#0: *3 "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/.../reports/allure_reports_html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8112"
+2025/07/25 16:18:54 [notice] 62816#0: signal process started
+2025/07/25 16:18:57 [notice] 62822#0: signal process started
+2025/07/25 16:19:02 [error] 62823#0: *1 "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/..../reports/allure_reports_html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8112"
+2025/07/25 16:19:04 [error] 62823#0: *1 "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/..../reports/allure_reports_html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8112"
+2025/07/25 16:19:05 [error] 62823#0: *1 "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/..../reports/allure_reports_html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8112"
+2025/07/25 16:19:05 [error] 62823#0: *1 "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/..../reports/allure_reports_html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8112"
+2025/07/25 16:19:05 [error] 62823#0: *1 "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/..../reports/allure_reports_html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8112"
+2025/07/25 16:19:29 [notice] 62848#0: signal process started
+2025/07/25 16:19:32 [notice] 62853#0: signal process started
+2025/08/11 14:01:29 [notice] 38633#0: signal process started
+2025/08/11 14:01:29 [error] 38633#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2025/08/11 14:01:32 [notice] 38661#0: signal process started
+2025/08/11 14:02:43 [notice] 39086#0: signal process started
+2025/08/11 14:02:43 [notice] 39088#0: signal process started
+2025/08/11 14:02:43 [error] 39088#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2025/08/11 14:02:46 [notice] 39101#0: signal process started
+2025/08/11 14:02:46 [notice] 39103#0: signal process started
+2025/12/26 16:21:24 [notice] 66576#0: signal process started
+2025/12/26 16:21:24 [error] 66576#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2025/12/26 16:21:27 [notice] 66587#0: signal process started
+2025/12/26 16:22:08 [notice] 66738#0: signal process started
+2025/12/26 16:22:08 [notice] 66740#0: signal process started
+2025/12/26 16:22:08 [error] 66740#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2025/12/26 16:22:11 [notice] 66760#0: signal process started
+2025/12/26 16:22:11 [notice] 66762#0: signal process started
+2025/12/26 16:25:13 [notice] 67078#0: signal process started
+2025/12/26 16:25:13 [notice] 67080#0: signal process started
+2025/12/26 16:25:13 [error] 67080#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2025/12/26 16:25:16 [notice] 67117#0: signal process started
+2025/12/26 16:25:16 [notice] 67119#0: signal process started
+2025/12/26 16:25:41 [notice] 67235#0: signal process started
+2025/12/26 16:25:41 [notice] 67237#0: signal process started
+2025/12/26 16:25:41 [error] 67237#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2025/12/26 16:25:44 [notice] 67244#0: signal process started
+2025/12/26 16:25:44 [notice] 67247#0: signal process started
+2025/12/26 17:09:26 [notice] 70577#0: signal process started
+2025/12/26 17:09:26 [notice] 70579#0: signal process started
+2025/12/26 17:09:26 [error] 70579#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2025/12/26 17:09:29 [notice] 70616#0: signal process started
+2025/12/26 17:09:29 [notice] 70618#0: signal process started
+2025/12/26 17:10:04 [notice] 70745#0: signal process started
+2025/12/26 17:10:04 [notice] 70747#0: signal process started
+2025/12/26 17:10:04 [error] 70747#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2025/12/26 17:10:07 [notice] 70757#0: signal process started
+2025/12/26 17:10:07 [notice] 70759#0: signal process started
+2025/12/29 08:44:52 [notice] 94218#0: signal process started
+2025/12/29 08:44:52 [notice] 94220#0: signal process started
+2025/12/29 08:44:52 [error] 94220#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/01-Python/Automated Testing/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2025/12/29 08:44:55 [notice] 94234#0: signal process started
+2025/12/29 08:44:55 [notice] 94236#0: signal process started
+2026/04/16 13:19:40 [notice] 9111#0: signal process started
+2026/04/16 13:19:40 [alert] 9111#0: kill(94232, 15) failed (3: No such process)
+2026/04/16 13:19:43 [notice] 9124#0: signal process started
+2026/04/16 13:22:02 [notice] 9516#0: signal process started
+2026/04/16 13:22:02 [notice] 9518#0: signal process started
+2026/04/16 13:22:02 [error] 9518#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/WorkProject/APP Test Tools/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2026/04/16 13:22:05 [notice] 9531#0: signal process started
+2026/04/16 13:22:07 [notice] 9537#0: signal process started
+2026/04/16 13:23:55 [notice] 10032#0: signal process started
+2026/04/16 13:23:55 [notice] 10034#0: signal process started
+2026/04/16 13:23:55 [error] 10034#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/WorkProject/APP Test Tools/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2026/04/16 13:23:58 [notice] 10063#0: signal process started
+2026/04/16 13:24:00 [notice] 10069#0: signal process started
+2026/04/16 13:29:24 [notice] 10908#0: signal process started
+2026/04/16 13:29:24 [notice] 10911#0: signal process started
+2026/04/16 13:29:24 [error] 10911#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/WorkProject/APP Test Tools/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2026/04/16 13:29:27 [notice] 10927#0: signal process started
+2026/04/16 13:29:29 [notice] 10942#0: signal process started
+2026/04/16 14:11:42 [notice] 17174#0: signal process started
+2026/04/16 14:11:42 [notice] 17176#0: signal process started
+2026/04/16 14:11:42 [error] 17176#0: open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/WorkProject/APP Test Tools/nginx-1.29.0/logs/nginx.pid" failed (2: No such file or directory)
+2026/04/16 14:11:45 [notice] 17201#0: signal process started
+2026/04/16 14:11:47 [notice] 17214#0: signal process started
+2026/04/16 14:12:59 [error] 17215#0: *5 open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/WorkProject/APP Test Tools/nginx-1.29.0/../reports/allure_reports_html/data/test-cases/e3b0eb0d7195ae84.json" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /data/test-cases/e3b0eb0d7195ae84.json HTTP/1.1", host: "127.0.0.1:8112", referrer: "http://127.0.0.1:8112/"
+2026/04/16 14:13:03 [error] 17215#0: *5 open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/WorkProject/APP Test Tools/nginx-1.29.0/../reports/allure_reports_html/data/test-cases/e9162c22c5c9ea45.json" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /data/test-cases/e9162c22c5c9ea45.json HTTP/1.1", host: "127.0.0.1:8112", referrer: "http://127.0.0.1:8112/"
+2026/04/16 14:13:07 [error] 17215#0: *5 open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/WorkProject/APP Test Tools/nginx-1.29.0/../reports/allure_reports_html/data/test-cases/db8976825dc8197.json" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /data/test-cases/db8976825dc8197.json HTTP/1.1", host: "127.0.0.1:8112", referrer: "http://127.0.0.1:8112/"
+2026/04/16 14:13:17 [error] 17215#0: *5 open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/WorkProject/APP Test Tools/nginx-1.29.0/../reports/allure_reports_html/.well-known/appspecific/com.chrome.devtools.json" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "127.0.0.1:8112"
+2026/04/16 14:13:25 [error] 17215#0: *3 open() "/Users/guojun/00-我的文件/01-WorkSpace/01-Code/WorkProject/APP Test Tools/nginx-1.29.0/../reports/allure_reports_html/.well-known/appspecific/com.chrome.devtools.json" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "127.0.0.1:8112"
