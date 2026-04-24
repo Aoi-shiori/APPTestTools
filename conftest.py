@@ -13,6 +13,7 @@ import pytest
 from core.device_manager import device_mgr
 from core.base_page import BasePage
 from airtest.core.api import set_current, G
+from core.api_client import ApiClient
 import time
 
 @pytest.fixture(scope="session", autouse=True)
@@ -49,3 +50,8 @@ def pytest_runtest_makereport(item, call):
                 rep.extra.append(screenshot_path)
         except Exception as e:
             print(f"截图失败: {e}")
+# 
+@pytest.fixture
+def api_client():
+    """每个用例独立的 API 客户端"""
+    return ApiClient()

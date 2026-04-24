@@ -39,6 +39,7 @@ data
 *.log
 logs
 log
+*.pid
 
 #所有包含 test temp的文件
 #*[tT][eE][sS][tT]*

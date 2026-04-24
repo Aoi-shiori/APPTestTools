@@ -35,6 +35,19 @@ DEVICE_CONFIG = {
     }
 }
 
+# 环境切换
+ENV = "stage"  # dev / test / staging / prod / stage
+
+# API 配置
+API_BASE_URLS = {
+    "stage": "https://first.stage.core.vivalink.com",
+    "test": "https://first.stage.core.vivalink.com",
+}
+
+API_BASE_URL = API_BASE_URLS[ENV]
+API_TIMEOUT = 30
+
+
 # 超时配置
 WAIT_TIME = 10          # 隐式等待/元素等待超时（秒）
 POLL_FREQ = 0.5         # 轮询间隔
@@ -47,6 +60,9 @@ REPORT_HTML = REPORTS_DIR / "report.html"
 LOG_LEVEL = "INFO"
 LOG_FORMAT = '%(asctime)s %(filename)s[line:%(lineno)d]->%(levelname)s: %(message)s'
 LOG_MODE= "a"
+
+
+
 
 
 
